@@ -1,0 +1,230 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f7f7f7, #e1e5e8); 
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #34495e; 
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    padding: 8px 12px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url('books-b.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+    background-blur: 5px;
+    background-overlay: rgba(0, 0, 0, 3.5); 
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+}
+
+.featured-books {
+    background: linear-gradient(to right, #ecf0f1, #bdc3c7); 
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured-books h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+    color: #2c3e50;
+}
+
+.book-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.book {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    width: 200px;
+    transition: transform 0.3s, box-shadow 0.3s; 
+
+.book:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.book img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.book h3 {
+    font-size: 18px;
+    margin: 15px 0 10px;
+    color: #333;
+}
+
+.book p {
+    font-size: 16px;
+    color: #e74c3c;
+}
+
+.testimonials {
+    background: radial-gradient(circle, #bdc3c7, #ecf0f1); 
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #2c3e50;
+}
+
+.testimonial {
+    margin: 20px auto;
+    max-width: 600px;
+    font-style: italic;
+}
+
+.testimonial h4 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-style: normal;
+}
+
+.newsletter {
+    background: linear-gradient(to right, #ffffff, #ecf0f1); 
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #bdc3c7;
+    width: 300px;
+}
+
+.newsletter button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #c0392b;
+}
+
+footer {
+    background-color: #34495e; 
+    color: white;
+    text-align: center;
+    padding: 3px 0; 
+    font-size: 8px; 
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
